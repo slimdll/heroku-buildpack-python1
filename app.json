@@ -1,0 +1,20 @@
+{
+  "name": "heroku-buildpack-python1",
+  "scripts": {
+  },
+  "env": {
+    "552111493": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "herokuconnect"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
